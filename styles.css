@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+
+
+
+body {
+    background: url("./img/back3.jpg");
+
+}
+
+.caixa {
+    background-color: rgb(233, 228, 156);
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 200px auto 0;
+}
+
+.input-tarefa{
+border: none;
+border-radius: 10px;
+width: 300px;
+height: 40px;
+padding-left: 10px;
+
+}
+
+.button-tarefa{
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    background-color: crimson;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 0 15px;
+    float: right;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.button-tarefa:hover{
+opacity: 0.6;
+
+}
+
+.list-tarefa{
+   width: 100%;
+   list-style: none;
+   margin-top: 40px;
+
+}
+
+.tarefa{
+    background-color: #f2f2f2;
+    box-shadow: 1px 4px 10px rgba(0,0,0,0.2);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+img {
+    height: 25px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.tarefa:hover img{
+    opacity: 1;
+}
